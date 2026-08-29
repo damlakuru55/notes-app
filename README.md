@@ -1,2 +1,2 @@
-# notes-app
+# Notes-App
 Basic notes app
