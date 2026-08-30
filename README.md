@@ -22,6 +22,10 @@ A simple browser-based notes application for creating and managing personal note
 2. Enter your content.
 3. Edit or remove notes whenever needed.
 
+## Data Safety
+
+Local browser storage can keep notes available between sessions without requiring a backend service. Users should still avoid storing sensitive information in a demo application.
+
 ## Purpose
 
 This project was created to practice CRUD operations, local browser storage, and DOM manipulation.
