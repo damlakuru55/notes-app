@@ -1,14 +1,14 @@
-# Chat App
+# Notes App
 
-A simple browser-based chat application focused on creating an interactive messaging interface.
+A simple browser-based notes application for creating and managing personal notes.
 
 ## Features
 
-* Send messages
-* Display conversations
-* Interactive chat interface
-* Responsive design
-* Clean layout
+* Create notes
+* Edit notes
+* Delete notes
+* Simple organization
+* Responsive interface
 
 ## Technologies
 
@@ -16,9 +16,15 @@ A simple browser-based chat application focused on creating an interactive messa
 * CSS3
 * JavaScript
 
+## How to Use
+
+1. Create a new note.
+2. Enter your content.
+3. Edit or remove notes whenever needed.
+
 ## Purpose
 
-This project was created to practice event handling, dynamic content rendering, and chat interface design.
+This project was created to practice CRUD operations, local browser storage, and DOM manipulation.
 
 ## License
 
