@@ -63,3 +63,7 @@ Note content should be inserted as text so user-written markup is not interprete
 ## Accessibility
 
 The interface should keep controls keyboard-friendly and communicate important state changes to assistive technologies.
+
+## Maintenance
+
+Keep storage keys centralized and keep data parsing separate from rendering logic as the project grows.
