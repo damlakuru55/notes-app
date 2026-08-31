@@ -84,3 +84,7 @@ Before publishing changes, verify the main note workflow, persistence behavior, 
 ## Documentation Standard
 
 Keep feature descriptions aligned with the current implementation and update the usage guide whenever a user-facing behavior changes.
+
+## Contribution Notes
+
+Keep commits focused on one logical change and avoid mixing unrelated formatting with functional updates.
