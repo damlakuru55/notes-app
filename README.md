@@ -59,3 +59,7 @@ Note content should be inserted as text so user-written markup is not interprete
 - Note timestamps
 - Pinning important notes
 - Export and import
+
+## Accessibility
+
+The interface should keep controls keyboard-friendly and communicate important state changes to assistive technologies.
