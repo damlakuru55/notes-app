@@ -1,6 +1,6 @@
 # Notes App
 
-A simple browser-based notes application for creating and managing personal notes.
+A simple browser-based notes application for creating and managing notes with a clean, lightweight interface.
 
 ## Features
 
@@ -10,6 +10,8 @@ A simple browser-based notes application for creating and managing personal note
 - Simple organization
 - Responsive interface
 - Persistent browser storage
+- Graceful handling of malformed stored data
+- Empty-note validation
 
 ## Persistence
 
@@ -25,20 +27,18 @@ Notes should be normalized before storage, and empty notes should be rejected. W
 2. Enter your content.
 3. Save the note.
 4. Edit or remove notes whenever needed.
-
-## Data Safety
-
-Local browser storage can keep notes available between sessions without requiring a backend service. Users should still avoid storing sensitive information in a demo application.
+5. Refresh the page to verify persisted notes.
 
 ## Technologies
 
 - HTML5
 - CSS3
 - JavaScript
+- Local Storage API
 
 ## Purpose
 
-This project was created to practice CRUD operations, local browser storage, validation, and DOM manipulation.
+This project practices CRUD operations, local browser storage, validation, DOM manipulation, and responsive interface design.
 
 ## License
 
