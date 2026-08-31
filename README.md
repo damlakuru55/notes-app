@@ -27,6 +27,10 @@ Notes should be normalized before storage, and empty notes should be rejected. W
 
 A note moves through creation, editing, storage, and deletion. Each operation should keep the visible list synchronized with the stored data so the interface reflects the latest state.
 
+## Storage Recovery
+
+If saved notes cannot be parsed, the application should recover to a safe empty state and allow new notes to be created rather than leaving the interface unusable.
+
 ## How to Use
 
 1. Create a new note.
@@ -44,7 +48,7 @@ A note moves through creation, editing, storage, and deletion. Each operation sh
 
 ## Purpose
 
-This project practices CRUD operations, local browser storage, validation, lifecycle handling, DOM manipulation, and responsive interface design.
+This project practices CRUD operations, local browser storage, validation, lifecycle handling, recovery, DOM manipulation, and responsive interface design.
 
 ## License
 
