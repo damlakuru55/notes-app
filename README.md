@@ -63,3 +63,8 @@ This project is open source and available under the MIT License.
 ## Development Notes
 
 The interface keeps state changes explicit and predictable. User input should be validated before processing, successful actions should update visible state immediately, and invalid states should provide clear feedback.
+
+
+## Development Notes
+
+Notes are kept lightweight: creating, editing, and removing a note should immediately synchronize the visible list with stored state.
