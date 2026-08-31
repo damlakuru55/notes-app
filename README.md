@@ -10,6 +10,10 @@ A simple browser-based notes application for creating and managing personal note
 * Simple organization
 * Responsive interface
 
+## Persistence
+
+The application can use browser local storage to keep notes available between sessions. Stored data should be treated as application data rather than a secure vault.
+
 ## Technologies
 
 * HTML5
