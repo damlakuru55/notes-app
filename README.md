@@ -92,3 +92,7 @@ Keep commits focused on one logical change and avoid mixing unrelated formatting
 ## Project Quality
 
 Prefer small, reviewable changes that preserve existing behavior while improving reliability and maintainability.
+
+## Support Notes
+
+When troubleshooting, first verify browser storage, then confirm the note collection can be parsed and rendered without errors.
