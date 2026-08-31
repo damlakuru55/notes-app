@@ -12,6 +12,7 @@ A simple browser-based notes application for creating and managing notes with a 
 - Persistent browser storage
 - Graceful handling of malformed stored data
 - Empty-note validation
+- Refresh-safe note persistence
 
 ## Persistence
 
