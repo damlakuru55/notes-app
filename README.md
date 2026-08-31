@@ -68,3 +68,7 @@ The interface keeps state changes explicit and predictable. User input should be
 ## Development Notes
 
 Notes are kept lightweight: creating, editing, and removing a note should immediately synchronize the visible list with stored state.
+
+## Release Check
+
+Note persistence and visible list state should remain synchronized after create, edit, delete, and refresh operations.
