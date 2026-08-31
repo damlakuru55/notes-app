@@ -100,3 +100,7 @@ When troubleshooting, first verify browser storage, then confirm the note collec
 ## Browser Compatibility
 
 Use standard browser APIs and avoid unnecessary dependencies so the application remains easy to run locally.
+
+## Performance Notes
+
+Keep rendering work proportional to the number of notes and avoid unnecessary full-page updates when a single note changes.
