@@ -80,3 +80,7 @@ Keep storage keys centralized and keep data parsing separate from rendering logi
 ## Release Checklist
 
 Before publishing changes, verify the main note workflow, persistence behavior, responsive layout, and keyboard accessibility.
+
+## Documentation Standard
+
+Keep feature descriptions aligned with the current implementation and update the usage guide whenever a user-facing behavior changes.
