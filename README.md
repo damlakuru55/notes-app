@@ -67,3 +67,12 @@ The interface should keep controls keyboard-friendly and communicate important s
 ## Maintenance
 
 Keep storage keys centralized and keep data parsing separate from rendering logic as the project grows.
+
+## Testing Checklist
+
+- Create a valid note
+- Reject empty content
+- Edit an existing note
+- Delete a note
+- Reload and verify persistence
+- Recover from invalid saved data
