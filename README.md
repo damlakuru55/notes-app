@@ -23,6 +23,10 @@ The application can use browser local storage to keep notes available between se
 
 Notes should be normalized before storage, and empty notes should be rejected. When stored data is unavailable or malformed, the application should recover gracefully instead of breaking the interface.
 
+## Note Lifecycle
+
+A note moves through creation, editing, storage, and deletion. Each operation should keep the visible list synchronized with the stored data so the interface reflects the latest state.
+
 ## How to Use
 
 1. Create a new note.
@@ -40,7 +44,7 @@ Notes should be normalized before storage, and empty notes should be rejected. W
 
 ## Purpose
 
-This project practices CRUD operations, local browser storage, validation, DOM manipulation, and responsive interface design.
+This project practices CRUD operations, local browser storage, validation, lifecycle handling, DOM manipulation, and responsive interface design.
 
 ## License
 
