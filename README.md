@@ -88,3 +88,7 @@ Keep feature descriptions aligned with the current implementation and update the
 ## Contribution Notes
 
 Keep commits focused on one logical change and avoid mixing unrelated formatting with functional updates.
+
+## Project Quality
+
+Prefer small, reviewable changes that preserve existing behavior while improving reliability and maintainability.
