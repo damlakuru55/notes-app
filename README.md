@@ -72,3 +72,7 @@ Notes are kept lightweight: creating, editing, and removing a note should immedi
 ## Release Check
 
 Note persistence and visible list state should remain synchronized after create, edit, delete, and refresh operations.
+
+## Final Review
+
+Stored notes should recover safely and render as text while preserving the latest visible state.
