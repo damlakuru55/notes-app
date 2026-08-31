@@ -14,6 +14,7 @@ A simple browser-based notes application for creating and managing notes with a 
 - Empty-note validation
 - Refresh-safe note persistence
 - Clear local-storage data model
+- Predictable note lifecycle
 
 ## Persistence
 
@@ -30,6 +31,10 @@ A note moves through creation, editing, storage, and deletion. Each operation sh
 ## Storage Recovery
 
 If saved notes cannot be parsed, the application should recover to a safe empty state and allow new notes to be created rather than leaving the interface unusable.
+
+## Safe Rendering
+
+User-written note content should be rendered as text rather than interpreted as HTML. This keeps stored note content predictable and prevents markup from becoming executable interface content.
 
 ## How to Use
 
@@ -48,7 +53,7 @@ If saved notes cannot be parsed, the application should recover to a safe empty 
 
 ## Purpose
 
-This project practices CRUD operations, local browser storage, validation, lifecycle handling, recovery, DOM manipulation, and responsive interface design.
+This project practices CRUD operations, local browser storage, validation, lifecycle handling, recovery, safe rendering, DOM manipulation, and responsive interface design.
 
 ## License
 
