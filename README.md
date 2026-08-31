@@ -76,3 +76,7 @@ Keep storage keys centralized and keep data parsing separate from rendering logi
 - Delete a note
 - Reload and verify persistence
 - Recover from invalid saved data
+
+## Release Checklist
+
+Before publishing changes, verify the main note workflow, persistence behavior, responsive layout, and keyboard accessibility.
