@@ -96,3 +96,7 @@ Prefer small, reviewable changes that preserve existing behavior while improving
 ## Support Notes
 
 When troubleshooting, first verify browser storage, then confirm the note collection can be parsed and rendered without errors.
+
+## Browser Compatibility
+
+Use standard browser APIs and avoid unnecessary dependencies so the application remains easy to run locally.
