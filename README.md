@@ -59,15 +59,9 @@ This project practices CRUD operations, local browser storage, validation, lifec
 
 This project is open source and available under the MIT License.
 
-
 ## Development Notes
 
 The interface keeps state changes explicit and predictable. User input should be validated before processing, successful actions should update visible state immediately, and invalid states should provide clear feedback.
-
-
-## Development Notes
-
-Notes are kept lightweight: creating, editing, and removing a note should immediately synchronize the visible list with stored state.
 
 ## Release Check
 
@@ -76,3 +70,7 @@ Note persistence and visible list state should remain synchronized after create,
 ## Final Review
 
 Stored notes should recover safely and render as text while preserving the latest visible state.
+
+## Persistence Review
+
+Any future saved-list implementation should restore valid data safely and keep the rendered collection synchronized with stored state.
